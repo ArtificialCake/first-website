@@ -1,0 +1,73 @@
+table {
+		border-collapse:collapse;
+		border:1px solid #000000;
+		margin-left:20px;
+}
+
+td, th {
+		border:1px solid #000000;
+		padding-left:10px;
+		padding-right:10px;
+}
+
+body {
+		text-align: left; 
+		background-color: gray;
+}
+
+.text_Hauptseite {
+		text-align: center;
+		font-size: 15px; 
+		font-family: 'courier';
+}
+
+.text_Fußzeile {
+		font-size: 15px; 
+		text-align: right;
+}
+
+#navibereich li {
+	display: inline;
+	list-style-type: none;
+	border-color: #ffff99;  /**/
+	border-style: inset outset outset inset;    /*oben rechts unten links*/
+}
+
+#navibereich {
+	background-color: gray;
+	padding: 4px 0;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	margin: 0;
+	position: sticky; /*navibereich folgt bis ende*/
+	top: 0;  /**/
+	width: 100%;  /**/
+	font-size: 20px;  /**/
+	font-family: Times New Roman;  /**/
+}
+
+#navibereich a {
+	color:black;
+	text-decoration: none;
+	padding: 4px 8px;
+}
+
+#navibereich a:hover {
+	background-color: yellow;
+	padding: 0px 8px;  /*Highlight passt zum Rand*/
+}
+
+#navHome {
+	background-color: yellow;  /**/
+	padding: 8px;
+}
+
+#navMit {
+	background-color: yellow;  /**/
+	padding: 8px;
+}
+
+#navDienst {
+	background-color: yellow;  /**/
+	padding: 8px;
+}

@@ -1,0 +1,59 @@
+body {
+	background-color: #ff6666;
+	background-image: url("images/sunset.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.text {
+	font-style: bold;
+	float: left;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	margin: 20px;
+}
+
+p {
+	font-family: 'Comic Sans MS';
+}
+
+
+.container img{
+	float: right;
+	width: 300px;
+	height: auto;
+	margin: 20px;
+	padding: 20px;
+}
+
+@media (max-width: 768px) {    /*KI*/
+	.container img {
+		height: auto;
+		width: 50%;
+	}
+}
+
+.container hr, footer {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	clear: both;
+	top: 100px;
+}
+
+hr {
+	height: 1px;
+	border-width: 0;
+	background-color: white;
+	vertical-align: bottom;
+}
+			
+footer {
+	
+	text-align: right;
+	background-color: #ff6666;
+}

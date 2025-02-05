@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Local-IT-Support-Mitarbeiter</title>
+		<style type="text/css"> 
+			table { 
+			border-collapse:collapse; 
+			border:1px solid #000000; 
+			margin-left:20px; 
+			} 
+			td, th { 
+			border:1px solid #000000; 
+			padding-left:10px; 
+			padding-right:10px; 
+			} 
+			
+			body {
+				background-color: gray;
+			}
+			
+			footer {
+				float: right;
+			}
+			
+			hr {
+				border-color: black;
+			}
+		</style>
+		<meta name="viewport" content="initial-scale=1, width=device-width">  <!-- www.w3schools.com/html/html_layout -->
+		<link href="navi-styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<ul id="navibereich">
+			<li> <a href="index.html">Home</a></li>
+			<li id="navMit"> <a href="mitarbeiter.html">Mitarbeiter</a></li>
+			<li> <a href="dienstleistungen.html">Dienstleistungen</a></li>
+		</ul>
+		<h1>Mitarbeiter</h1>
+		<table>
+			<tbody>
+				<tr>               <!-- <tr>=TableRow -->
+					<th scope="col">Name</th>  <!-- <th>=TableHeader -->
+					<th scope="col">E-mail</th>
+					<th scope="col">Fachgebiet</th>
+				</tr>
+				<tr>
+					<td><a href="Profil_01.html">Jurgen Balla</a></td>
+					<td><a href="mailto:jurgen.balla@hsbk.schule-ob.de">jurgen.balla@hsbk.schule-ob.de</a></td>
+					<td>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JAVASCRIPT</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td><a href="Profil_02.html">Hidetaka Miyazaki</a></td>  <!-- <td>=TableData -->
+					<td><a href="mailto:hidetaka.miyazaki@hsbk.schule-ob.de">hidetaka.miyazaki@hsbk.schule-ob.de</a></td>  <!-- default email client -->
+					<td>
+						<ul>
+							<li>Mathematik</li>
+							<li>Software</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td><a href="Profil_03.html">Hideo Kojima</a></td>
+					<td><a href="mailto:hideo.kojima@hsbk.schule-ob.de">hideo.kojima@hsbk.schule-ob.de</a></td>
+					<td>
+						<ul>
+							<li>Word / Excel / Access</li>
+							<li>Powerpoint</li>
+							<li>C</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<hr>  <!-- Border Line -->
+		<footer><a href="index.html">Zurück</a></footer>
+	</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+	background-color: gray;
+	background-image: url("/images/kojima-logo-5c186.jpg");
+	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.text {
+	font-style: bold;
+	float: left;
+	text-align: center;
+	color: black;
+	padding: 20px;
+	margin: 20px;
+}
+
+p {
+	font-family: 'Comic Sans MS';
+	color: whitesmoke;
+}
+
+
+.container img{
+	float: right;
+	width: 300px;
+	height: auto;
+	margin: 20px;
+	padding: 20px;
+}
+
+@media (max-width: 768px) {    /*KI*/
+	.container img {
+		height: auto;
+		width: 50%;
+	}
+}
+
+.container hr, footer {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	clear: both;
+	top: 100px;
+}
+
+hr {
+	height: 1px;
+	border-width: 0;
+	background: linear-gradient(black,gray);
+	vertical-align: bottom;
+}
+			
+footer {
+	
+	text-align: right;
+	background: linear-gradient(to right, rgb(184, 182, 182), rgb(30, 30, 30), black);
+}

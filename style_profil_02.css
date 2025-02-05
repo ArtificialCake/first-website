@@ -1,0 +1,54 @@
+body {
+	background-color: #1a1a1a;
+	background-image: url("images/ds1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.text {
+	font-style: bold;
+	font-family: papyrus, sans-serif;
+	float: left;
+	text-align: center;
+	color: #d4af37;
+	padding: 20px;
+	margin: 20px;
+}
+
+p {
+	color: #e60000;
+}
+
+
+.container img{
+	float: right;
+	width: 300px;
+	height: auto;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+.container hr, footer {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	clear: both;
+	top: 100px;
+}
+
+hr {
+	height: 1px;
+	border-width: 0;
+	background-color: #c0c0c0;
+	vertical-align: bottom;
+}
+			
+footer {
+	
+	text-align: right;
+	background-color: #1a1a1a;
+}
